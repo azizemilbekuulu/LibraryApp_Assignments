@@ -44,7 +44,6 @@ public class BookPage extends BasePage {
     public WebElement categoryDropdown;
 
 
-
     @FindBy(id = "description")
     public WebElement description;
 

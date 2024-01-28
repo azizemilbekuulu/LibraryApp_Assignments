@@ -29,7 +29,6 @@ public class LoginPage {
         String username= ConfigurationReader.getProperty(userType+"_username");
         String password=ConfigurationReader.getProperty(userType+"_password");
 
-
         emailBox.sendKeys(username);
         passwordBox.sendKeys(password);
         loginButton.click();

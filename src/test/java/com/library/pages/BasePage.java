@@ -19,10 +19,11 @@ public abstract  class BasePage {
 
 
     @FindBy(css = "#navbarDropdown>span")
-    public WebElement accountHolderName;
+    private WebElement accountHolderName;
 
     @FindBy(linkText = "Log Out")
-    public WebElement logOutLink;
+    private WebElement logOutLink;
+
 
     public void logOut(){
         accountHolderName.click();

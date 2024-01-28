@@ -21,7 +21,7 @@ public class DashBoardPage extends BasePage
 
 
 
-    public String getModuleCount(String module){
+    public  String getModuleCount(String module){
         //h6[normalize-space(.)='Users']//..//h2
 
         String locator="//h6[normalize-space(.)='"+module+"']//..//h2";

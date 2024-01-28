@@ -49,7 +49,6 @@ public class Driver {
                         chromeOptions.addArguments("--start-maximized");
                         driverPool.set(new RemoteWebDriver(url, chromeOptions));
                         //driverPool.set(new RemoteWebDriver(new URL("http://0.0.0.0:4444/wd/hub"),desiredCapabilities));
-
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

@@ -9,7 +9,7 @@ public class DashBoardPage extends BasePage
 {
 
 
-    @FindBy(id = "borrowed_books")
+    @FindBy(css = "#borrowed_books")
     public WebElement borrowedBooksNumber;
 
     @FindBy(id = "user_count")
@@ -30,5 +30,6 @@ public class DashBoardPage extends BasePage
 
         return elementOfModule.getText();
     }
+    ////h6[normalize-space(.)='Borrowed Books']//..//h2
 
 }

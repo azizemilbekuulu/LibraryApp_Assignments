@@ -18,7 +18,7 @@ public class BookPage extends BasePage {
     @FindBy(id = "book_categories")
     public WebElement mainCategoryElement;
 
-    @FindBy(name = "name")
+    @FindBy(xpath = "//input[@class='form-control']")
     public WebElement bookName;
 
 

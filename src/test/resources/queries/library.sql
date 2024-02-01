@@ -27,3 +27,14 @@ from book_categories;
 
 select name from book_categories;
 
+select * from books;
+select * from book_categories;
+
+select b.name as book_name, b.isbn, b.year, b.author, bc.name as category_name, b.description from books b
+    join book_categories bc on b.book_category_id = bc.id
+where b.name = 'Clean Code';
+
+select borrowed_
+
+
+
